@@ -16,5 +16,10 @@
                 "Arif\\FleetCartApi\\Providers"
             ]
         }
+    },
+    "autoload": {
+        "psr-4": {
+            "Arif\\FleetCartApi\\": "src/"
+        }
     }
 }
