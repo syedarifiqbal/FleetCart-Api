@@ -2,10 +2,10 @@
 
 namespace Arif\FleetCartApi\Http\Controllers\Auth;
 
-use Arif\FleetCartApi\Providers\Entities\User;
-use Arif\FleetCartApi\Providers\Http\Controllers\Auth\BaseAuthController;
-use Arif\FleetCartApi\Providers\Http\Requests\LoginRequest;
-use Arif\FleetCartApi\Providers\Http\Requests\RegisterRequest;
+use Arif\FleetCartApi\Entities\User;
+use Arif\FleetCartApi\Http\Controllers\Auth\BaseAuthController;
+use Arif\FleetCartApi\Http\Requests\LoginRequest;
+use Arif\FleetCartApi\Http\Requests\RegisterRequest;
 use Cartalyst\Sentinel\Checkpoints\NotActivatedException;
 use Cartalyst\Sentinel\Checkpoints\ThrottlingException;
 use Illuminate\Http\JsonResponse;

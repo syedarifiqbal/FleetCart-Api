@@ -2,8 +2,8 @@
 
 namespace Arif\FleetCartApi\Http\Controllers\Auth;
 
-use Arif\FleetCartApi\Providers\Http\Requests\LoginRequest;
-use Arif\FleetCartApi\Providers\Http\Requests\RegisterRequest;
+use Arif\FleetCartApi\Http\Requests\LoginRequest;
+use Arif\FleetCartApi\Http\Requests\RegisterRequest;
 use Illuminate\Http\JsonResponse;
 use Modules\User\Mail\Welcome;
 use Modules\User\Entities\Role;

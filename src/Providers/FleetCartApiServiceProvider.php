@@ -2,6 +2,7 @@
 
 namespace Arif\FleetCartApi\Providers;
 
+use Arif\FleetCartApi\Http\Middleware\ApiCors;
 use Arif\FleetCartApi\Http\Middleware\Authenticate;
 use FleetCart\Console\Commands\InstallFleetCartApi;
 use Illuminate\Support\ServiceProvider;
@@ -15,6 +16,7 @@ class FleetCartApiServiceProvider extends ServiceProvider
      */
     protected $middleware = [
         'auth' => Authenticate::class,
+        'api_cors' => ApiCors::class,
     ];
 
 
