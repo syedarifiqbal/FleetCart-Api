@@ -1,0 +1,20 @@
+{
+    "name": "syedarifarif/fleetcart-api",
+    "authors": [
+        {
+            "name": "Arif Iqbal",
+            "email": "arifiqbal@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/passport": "^9.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arif\\FleetCartApi\\Providers"
+            ]
+        }
+    }
+}
