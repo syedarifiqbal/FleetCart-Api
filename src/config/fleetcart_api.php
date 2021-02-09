@@ -26,7 +26,8 @@ return [
      * Note: If your class or controller is expecting any argument then try to make new class without
      * any parameters in constructor method, otherwise it might cause issue.
      */
-    "extend_me" => "\Modules\User\Entities\User@extendsMe",
+//    "extend_me" => "\Modules\User\Entities\User@extendsMe",
+    "extend_me" => null,
 
     /**
      * This variable will be used for pagination. the default will be used.

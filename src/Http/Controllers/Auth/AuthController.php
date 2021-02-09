@@ -117,7 +117,7 @@ class AuthController extends BaseAuthController
     }
 
     public function me(Request $request){
-        $user = auth()->user();
+        $user = auth('api')->user();
 
         $extend_me = config('fleetcart_api.extend_me');
 
