@@ -7,20 +7,20 @@
             "email": "arifiqbal@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "laravel/passport": "^9.3"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Arif\\FleetCartApi\\Providers"
-            ]
-        }
     },
     "autoload": {
         "psr-4": {
             "Arif\\FleetCartApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arif\\FleetCartApi\\Providers\\FleetCartApiServiceProvider"
+            ]
         }
     }
 }
