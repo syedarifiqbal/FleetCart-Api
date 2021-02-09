@@ -2,9 +2,9 @@
 
 namespace Arif\FleetCartApi\Providers;
 
+use Arif\FleetCartApi\Console\InstallFleetCartApi;
 use Arif\FleetCartApi\Http\Middleware\ApiCors;
 use Arif\FleetCartApi\Http\Middleware\Authenticate;
-use FleetCart\Console\Commands\InstallFleetCartApi;
 use Illuminate\Support\ServiceProvider;
 
 class FleetCartApiServiceProvider extends ServiceProvider
