@@ -41,5 +41,5 @@ Route::prefix('api')
         Route::get('/countries', \Arif\FleetCartApi\Http\Controllers\CountriesController::class . '@index');
         Route::get('/payment-gateways', \Arif\FleetCartApi\Http\Controllers\PaymentGatewaysController::class . '@index');
         Route::post('/checkout', \Arif\FleetCartApi\Http\Controllers\CheckoutController::class . '@store');
-        Route::post('cart/coupon', 'CartCouponController@store')->name('cart.coupon.store');
+//        Route::post('cart/coupon', 'CartCouponController@store')->name('cart.coupon.store');
     });
