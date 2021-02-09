@@ -4,8 +4,8 @@
 namespace Arif\FleetCartApi\Http\Controllers\Account;
 
 
-use Arif\FleetCartApi\Providers\Http\Controllers\BaseController;
-use Arif\FleetCartApi\Providers\Http\Requests\StoreReviewRequest;
+use Arif\FleetCartApi\Http\Controllers\BaseController;
+use Arif\FleetCartApi\Http\Requests\StoreReviewRequest;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Modules\Product\Entities\Product;

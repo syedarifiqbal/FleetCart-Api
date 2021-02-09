@@ -2,12 +2,11 @@
 
 namespace Arif\FleetCartApi\Http\Controllers\Auth;
 
-use Arif\FleetCartApi\Providers\Entities\PasswordReset;
-use App\Notifications\PasswordResetSuccess;
-use Arif\FleetCartApi\Providers\Entities\User;
-use Arif\FleetCartApi\Providers\Http\Controllers\BaseController;
-use Arif\FleetCartApi\Providers\Http\Requests\PasswordRequest;
-use Arif\FleetCartApi\Providers\Http\Requests\PasswordResetRequest;
+use Arif\FleetCartApi\Entities\PasswordReset;
+use Arif\FleetCartApi\Entities\User;
+use Arif\FleetCartApi\Http\Controllers\BaseController;
+use Arif\FleetCartApi\Http\Requests\PasswordRequest;
+use Arif\FleetCartApi\Http\Requests\PasswordResetRequest;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
