@@ -59,6 +59,8 @@ class AuthController extends BaseAuthController
      */
     public function postRegister(RegisterRequest $request): JsonResponse
     {
+        $request->merge(['password' => bcrypt(request('password'))]);
+
         $data = $request->only(['first_name', 'last_name', 'email', 'password']);
 
         $user = User::create($data);

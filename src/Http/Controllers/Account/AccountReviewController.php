@@ -19,7 +19,7 @@ class AccountReviewController extends BaseController
      */
     public function index() : JsonResponse
     {
-        $reviews = auth()->user()
+        $reviews = auth('api')->user()
             ->reviews()
             ->with('product.files')
             ->whereHas('product')
